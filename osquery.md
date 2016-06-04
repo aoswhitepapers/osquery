@@ -83,17 +83,14 @@ osqueryi
 
 To interactively query the tables once the tools have been installed, you can run the osqueryi command in a shell like the Terminal application on a Mac. You can ask for things like what tables of data can currently be returned on the computer by using the sqlite-style syntax for commands.
 
-<span class="c5">$ osqueryi "SELECT cpu\_brand, physical\_memory FROM system\_info;"</span>
-
-<span class="c5">+----------------------------------------+-----------------+</span>
-
-<span class="c5">| cpu\_brand | physical\_memory |</span>
-
-<span class="c5">+----------------------------------------+-----------------+</span>
-
-<span class="c5">| Intel(R) Core(TM) M-5Y71 CPU @ 1.20GHz | 8589934592 |</span>
-
-<span class="c5">+----------------------------------------+-----------------+</span>
+```
+$ osqueryi "SELECT cpu_brand, physical_memory FROM system_info;"
++----------------------------------------+-----------------+
+| cpu_brand                              | physical_memory |
++----------------------------------------+-----------------+
+| Intel(R) Core(TM) M-5Y71 CPU @ 1.20GHz | 8589934592      |
++----------------------------------------+-----------------+
+```
 
  
 
